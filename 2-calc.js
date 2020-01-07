@@ -302,11 +302,11 @@ function btnAction() {
         document.getElementById('btnP').style.color = 'whitesmoke'
         document.getElementsByTagName('body')[0].style.background = 'rgb(58, 57, 57)'
         document.getElementById('title').style.color = 'whitesmoke'
-        document.getElementById('backgr').style.boxShadow='0 0 0 rgba(0,0,0,1),inset 0 -2px 5px rgba(0,0,0,1),inset 0 2px 2px rgba(255,255,255,0.1),0 0 0 2px #000,0 0 0 5px #0c0c0c,0 0 0 5.5px #00a1ff'
+        //document.getElementById('backgr').style.boxShadow='0 0 0 rgba(0,0,0,1),inset 0 -2px 5px rgba(0,0,0,1),inset 0 2px 2px rgba(255,255,255,0.1),0 0 0 2px #000,0 0 0 5px #0c0c0c,0 0 0 5.5px #00a1ff'
     } else {
         btn.style.color = 'rgb(28, 28, 28)'
         btn.style.textShadow = 'none'
-        document.getElementById('backgr').style.boxShadow='0 3px 4px rgba(0,0,0,1),inset 0 -2px 5px rgba(0,0,0,1),inset 0 2px 2px rgba(255,255,255,0.5),0 0 0 2px #000,0 0 0 5px #0c0c0c,0 0 0 5.5px #080808'
+        //document.getElementById('backgr').style.boxShadow='0 3px 4px rgba(0,0,0,1),inset 0 -2px 5px rgba(0,0,0,1),inset 0 2px 2px rgba(255,255,255,0.5),0 0 0 2px #000,0 0 0 5px #0c0c0c,0 0 0 5.5px #080808'
         document.getElementById('btnP').style.color = 'rgb(58, 57, 57)'
         document.getElementsByTagName('body')[0].style.background = 'whitesmoke'
         document.getElementById('title').style.color = 'rgb(58, 57, 57)'
